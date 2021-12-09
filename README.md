@@ -1,1 +1,1 @@
-# MyProject
+# Duplicate detection algorithm
