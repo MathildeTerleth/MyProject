@@ -1,4 +1,4 @@
-# Duplicate detection algorithm (MSMP+ variation)
+# LSH-based Duplicate Detection Algorithm using Key Frequency (MSMP+ variation)
 ***
 This project is about finding a scalable duplicate detection method for a dataset containing 1624 television products coming from several Web shops, of which 1262 are unique. Due to the size of the data as well as the number of comparisons, this method forms a solution to reduce the long computation time compared to other readily available duplicate detection algorithms. In order to reduce the number of comparisons, this method used the technique of Locality Sensity Hashing (LSH) and can be seen as a variation of the MSMP+ algorithm proposed by Hartveld, A. et al. (2018)[[1]](#1).
 
