@@ -738,7 +738,7 @@ plt.show()
 
 ## Calculate F1-measure after MSM 
 bootstraps = 5
-treshold_2 = [0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.4,0.3]
+treshold_2 = np.arange(start = 0.95, stop = 0, step = -0.05)
 F1_final = np.zeros((bootstraps, len(treshold_2)))
 fraction_comp_final = np.zeros((bootstraps, len(treshold_2)))
 TP_final = np.zeros((bootstraps, len(treshold_2)))
