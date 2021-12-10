@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov  2 12:09:38 2021
-
-@author: Mathilde
+@author: Mathilde Terleth
 """
 
 import json
@@ -20,11 +18,9 @@ from strsimpy.qgram import QGram
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
 
 ## Retrieve the data set
-
 with open(r"C:\Users\Mathilde\Documents\Pre-master Econometrie\Computer Science\Paper\TVs-all-merged\TVs-all-merged.json") as f:
     data = json.load(f)
-    
-    
+     
 ## Funtion to obtain the unique items of a certain key in the list of features
 def uniqueItems(obj):
     unique_Items = []
